@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monk's Cafe</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+		<div>
+			<h1>Monk's Cafe</h1>
+	    	<h2><i>“The coffee shop”</i></h2>
+	    </div>
+	    <div>
+	    	<img src="./img/toms-restaurant.jpg" class="fit">
+	    </div>
+    	<div>
+			<h3>Reservations</h3>
+		</div>
+		<div class="row">
+  			<div class="column">
+  				<h4>Make Reservations</h4>
+  				<form>
+    				<input id="customerName" placeholder="Customer name">
+    				<input id="reservationDate" placeholder="Reservation date">
+    				<button class="button" id="confirmReservation">Confirm</button>
+				</form>
+  			</div>
+  			<div class="column">
+  				<h4>Existing Reservations</h4>
+				<table id="existingReservations" style="width:99%">
+				  <tr id="thead">
+				    <th>Name</th>
+				    <th>Day</th>
+				  </tr>
+				  <tr id="tbody">
+				  </tr>
+				</table>
+  			</div>			
+		</div>
+	   	<div>
+		   	<h3>Come Dine with Us</h3>
+	   	</div>
+	   	<div id="map">
+	   		<script async defer src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyBIkQYfP92H-2nNgXqrspx60WuGvjWuT3Y&callback=initMap">
+			</script>
+	   	</div>
+	   	<div>
+	   		<h3></h3>
+		   	<div class="row">
+		   		<div class="column">
+		   			<img src="./img/jerry.jpg" class="fit">
+		   		</div>
+		   		<div class="column">
+		   			<h3>Customer Reviews</h3>
+			   		<p><i>“Big lettuce, big carrots, tomatoes like volleyballs.”</i></p>
+			   		<p>— Jerry Seinfeld, on The BIG Salad</p>
+				</div>
+			</div>
+	   	</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
